@@ -1,5 +1,20 @@
 # ProgramSayac
-Programın çalışma prensibi basittir. Kullanıcı hangi programın ne kadar süredir kullanıldığını veya hangi oyunu ne kadar süre oynadığını görebilecek.
-Program Yapisi :
-Kullanici programa dosya yolunu secerek suresini kaydetmek istedigi .exe dosyasini ekleyecek. Bu exe dosyasi listboxda listelenecek. Kullanici listboxtan istedigini secip baslaticak. Program ise uygulama baslatildiktan kapatilana kadar gecen sureyi bir dosyaya kaydedicek bu sayede sure sifirlanmadan korunabilecek.. Kullanici bu sureyi program icinde gorebilecek. Programin temel amaci budur.
-Program kodlandikca burasi adimlar ile guncellenecekdir.
+
+ProgramSayac, kullanıcıların belirli bir .exe dosyasının ne kadar süredir çalıştığını veya hangi oyunu ne kadar süre oynadığını takip etmelerini sağlayan bir programdır.
+
+## Proje Hakkında
+
+Bu programın çalışma prensibi oldukça basittir. Kullanıcı, süresini kaydetmek istediği .exe dosyasını programın üzerine sürükleyerek veya dosya yolunu seçerek ekleyebilir. Eklenen .exe dosyaları, listbox içinde listelenir. Kullanıcı istediği .exe dosyasını seçerek süre takibini başlatabilir. Program, uygulama başlatıldıktan kapatılana kadar geçen süreyi bir dosyaya kaydeder, böylece süre sıfırlanmadan korunabilir. Kullanıcı, bu süreyi program arayüzünde görüntüleyebilir. Programın temel amacı budur.
+
+## Kurulum
+
+Guncellenecektir.
+
+## Kullanım
+
+Guncellenecektir.
+
+## Iletisim 
+
+21703903 Ali Alizada
+Ali.Alizadeggs@gmail.com
