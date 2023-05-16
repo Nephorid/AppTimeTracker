@@ -1,4 +1,4 @@
-# ProgramSayac
+# AppTimeTracker
 
 ProgramSayac, kullanıcıların belirli bir .exe dosyasının ne kadar süredir çalıştığını veya hangi oyunu ne kadar süre oynadığını takip etmelerini sağlayan bir programdır.
 
