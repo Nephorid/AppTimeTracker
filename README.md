@@ -16,5 +16,4 @@ Guncellenecektir.
 
 ## Iletisim 
 
-21703903 Ali Alizada
 Ali.Alizadeggs@gmail.com
