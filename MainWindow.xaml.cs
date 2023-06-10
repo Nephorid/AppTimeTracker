@@ -6,7 +6,7 @@ using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace Test
+namespace AppTimeTracker
 {
     public partial class MainWindow : Window
     {

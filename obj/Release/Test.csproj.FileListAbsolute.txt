@@ -29,3 +29,5 @@ C:\Users\Nephorid\source\repos\Test\Test\obj\Release\Test.csproj.CoreCompileInpu
 C:\Users\Nephorid\source\repos\Test\Test\obj\Release\Test.csproj.CopyComplete
 C:\Users\Nephorid\source\repos\Test\Test\obj\Release\Test.exe
 C:\Users\Nephorid\source\repos\Test\Test\obj\Release\Test.pdb
+C:\Users\Nephorid\source\repos\Test\Test\obj\Release\AppTimeTracker_MarkupCompile.cache
+C:\Users\Nephorid\source\repos\Test\Test\obj\Release\AppTimeTracker_MarkupCompile.lref

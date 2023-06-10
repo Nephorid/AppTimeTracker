@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Test
+namespace AppTimeTracker
 {
     public class Oyun
     {
