@@ -26,6 +26,7 @@ Bu proje .NET ve C# programlama dili kullanılarak geliştirilmiştir.
 5. İstediğiniz .exe dosyasını seçin ve "Oyna" düğmesini tıklayın.
 6. Program, seçilen .exe dosyasının çalışma süresini kaydetmeye başlayacaktır.
 7. Süreyi görmek için program arayüzünde süre bilgisini kontrol edebilirsiniz.
+8. Programın nasıl kullanılacağına dair videoyu bağlantıdan izleyebilirsiniz:[![Kullanım Videosu](https://img.youtube.com/vi/I2GQA_NVEE4/0.jpg)](https://youtu.be/I2GQA_NVEE4)
 
 ## Gelecek Planlar ve Geliştirmeler
 
