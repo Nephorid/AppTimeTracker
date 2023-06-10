@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="English">English</sys:String>
+    <sys:String x:Key="LanguageSettings">Settings</sys:String>
+    <sys:String x:Key="Turkish">Turkish</sys:String>
+    <sys:String x:Key="GameLibrary">Game Library</sys:String>
+    <sys:String x:Key="AddGame">Add Game</sys:String>
+    <sys:String x:Key="Delete">Delete</sys:String>
+    <sys:String x:Key="Play">Play</sys:String>
+    <sys:String x:Key="PlayGame">Play</sys:String>
+    <sys:String x:Key="TimePlayed">Time Played</sys:String>
+
+</ResourceDictionary>
+    

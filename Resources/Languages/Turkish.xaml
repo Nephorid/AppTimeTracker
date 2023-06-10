@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="English">İngilizce</sys:String>
+    <sys:String x:Key="LanguageSettings">Ayarlar</sys:String>
+    <sys:String x:Key="Turkish">Türkçe</sys:String>
+    <sys:String x:Key="GameLibrary">Oyun Kütüphanesi</sys:String>
+    <sys:String x:Key="AddGame">Oyun Ekle</sys:String>
+    <sys:String x:Key="Delete">Sil</sys:String>
+    <sys:String x:Key="Play">Oyna</sys:String>
+    <sys:String x:Key="PlayGame">Oyna</sys:String>
+    <sys:String x:Key="TimePlayed">Oynanan Süre</sys:String>
+
+</ResourceDictionary>
