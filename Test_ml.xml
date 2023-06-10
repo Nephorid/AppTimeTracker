@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<MdbTranslationStore xmlns="http://tempuri.org/MdbTranslationStore.xsd">
+  <Languages>
+    <LanguageID>31</LanguageID>
+    <LanguageName>Turkish</LanguageName>
+    <IetfLanguageTag>tr</IetfLanguageTag>
+    <ColumnNumber>0</ColumnNumber>
+  </Languages>
+  <Languages>
+    <LanguageID>9</LanguageID>
+    <LanguageName>English</LanguageName>
+    <IetfLanguageTag>en</IetfLanguageTag>
+    <ColumnNumber>1</ColumnNumber>
+  </Languages>
+  <GeneralAttributes>
+    <Name>XmlDatabaseVersion</Name>
+    <TextValue>1</TextValue>
+    <NumValue>1</NumValue>
+  </GeneralAttributes>
+  <GeneralAttributes>
+    <Name>StatusHash</Name>
+    <TextValue>Bf5AV1MWbxJVWefJrFWGVPEHx+k=</TextValue>
+    <NumValue>0</NumValue>
+  </GeneralAttributes>
+  <GeneralAttributes>
+    <Name>Dirty</Name>
+    <TextValue>True</TextValue>
+    <NumValue>1</NumValue>
+  </GeneralAttributes>
+  <GeneralAttributes>
+    <Name>OriginalLanguageIetfTag</Name>
+    <TextValue>tr</TextValue>
+    <NumValue>0</NumValue>
+  </GeneralAttributes>
+</MdbTranslationStore>
