@@ -27,6 +27,17 @@ Bu proje .NET ve C# programlama dili kullanılarak geliştirilmiştir.
 6. Program, seçilen .exe dosyasının çalışma süresini kaydetmeye başlayacaktır.
 7. Süreyi görmek için program arayüzünde süre bilgisini kontrol edebilirsiniz.
 
+## Gelecek Planlar ve Geliştirmeler
+
+AppTimeTracker'i sürekli olarak geliştirmeyi ve yeni özellikler eklemeyi planlıyoruz. İşte gelecekte gerçekleştirmeyi planladığımız bazı değişiklikler:
+
+- Birden fazla dil desteği eklenmesi: Programın kullanıcı arabirimini farklı dillerde kullanabilme imkanı sunmak için çoklu dil desteği ekleyeceğiz.
+- Yeni özellikler: Kullanıcı geri bildirimleri doğrultusunda yeni özellikler eklemeyi düşünüyoruz. Örneğin, toplam süre istatistikleri, hatırlatma seçenekleri vb.
+- Modern tasarım güncellemeleri: Programın kullanıcı arayüzünü daha modern ve kullanıcı dostu hale getirmek için tasarım güncellemeleri yapmayı planlıyoruz.
+
+Bu planları hayata geçirmek için çalışmalarımız devam etmektedir. Yeni güncellemeleri takip etmek için projeyi düzenli olarak kontrol edebilirsiniz.
+
+
 ## Öneri ve Şikayet
 
 Eğer projemizle ilgili herhangi bir öneriniz veya şikayetiniz varsa, lütfen bize e-posta göndermekten çekinmeyin. İletişim için aşağıdaki e-posta adresini kullanabilirsiniz:
