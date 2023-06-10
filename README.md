@@ -23,6 +23,12 @@ Bu programın çalışma prensibi oldukça basittir. Kullanıcı, süresini kayd
 6. Program, seçilen .exe dosyasının çalışma süresini kaydetmeye başlayacaktır.
 7. Süreyi görmek için program arayüzünde süre bilgisini kontrol edebilirsiniz.
 
-## Iletisim 
+## Öneri ve Şikayet
 
-Ali.Alizadeggs@gmail.com
+Eğer projemizle ilgili herhangi bir öneriniz veya şikayetiniz varsa, lütfen bize e-posta göndermekten çekinmeyin. İletişim için aşağıdaki e-posta adresini kullanabilirsiniz:
+
+- E-posta: [ali.alizadeggs@gmail.com](mailto:ali.alizadeggs@gmail.com)
+
+Geribildirimleriniz bizim için değerlidir ve projeyi geliştirmemize yardımcı olur. Her türlü geri bildirim ve sorularınızı bekliyoruz!
+
+
