@@ -43,7 +43,14 @@ namespace AppTimeTracker
             string json = JsonConvert.SerializeObject(gameList, Formatting.Indented);
             File.WriteAllText(SaveFilePath, json);
         }
-
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+        private void MinimizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
         private void LoadGameLibrary()
         {
             if (File.Exists(SaveFilePath))
