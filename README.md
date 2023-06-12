@@ -27,6 +27,20 @@ Bu proje .NET ve C# programlama dili kullanılarak geliştirilmiştir.
 6. Program, seçilen .exe dosyasının çalışma süresini kaydetmeye başlayacaktır.
 7. Süreyi görmek için program arayüzünde süre bilgisini kontrol edebilirsiniz.
 8. Programın nasıl kullanılacağına dair videoyu bağlantıdan izleyebilirsiniz: [**Kullanım Videosu**](https://youtu.be/rVCeLsM9XQ4)
+
+## Güncelleme Notları
+
+**[2023-06-11]** - Arayüz Tasarımı İyileştirmeleri ve Pencere Yerleşimi İyileştirmesi
+
+Açıklama: Bu güncellemeyle, kullanıcı arayüzünde yapılan iyileştirmeler ve program penceresinin yerleşimi üzerindeki kısıtlama kaldırıldı.
+
+- Butonlar: Butonların tasarımı iyileştirildi, daha kullanıcı dostu hale getirildi.
+- Giriş Kutusu: Input box'un tasarımı güncellendi, daha modern bir görünüm kazandı.
+- Öğe Yerleşimi: Bazı öğelerin yerleri değiştirildi, kullanıcının daha iyi bir deneyim yaşaması hedeflendi.
+- Pencere Yerleşimi İyileştirmesi: Artık kullanıcılar programın ekran üzerindeki yerini özgürce kaydırabilir.
+
+
+
 ## Gelecek Planlar ve Geliştirmeler
 
 AppTimeTracker'i sürekli olarak geliştirmeyi ve yeni özellikler eklemeyi planlıyoruz. İşte gelecekte gerçekleştirmeyi planladığımız bazı değişiklikler:
