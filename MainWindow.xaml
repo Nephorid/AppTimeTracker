@@ -6,7 +6,7 @@
         WindowStyle="None"
         Background="#181735">
 
-    <Grid>
+    <Grid MouseLeftButtonDown="DragWindow" MouseMove="MoveWindow">
         <Grid.RowDefinitions>
             <RowDefinition Height="25"></RowDefinition>
             <RowDefinition Height="*"/>
@@ -49,7 +49,7 @@
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border Width="35" Height="20"
-                                CornerRadius="9"
+                                CornerRadius="7"
                                 Background="{TemplateBinding Background}">
                             <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
 
@@ -80,7 +80,7 @@
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border Width="35" Height="20"
-                                CornerRadius="9"
+                                CornerRadius="7"
                                 Background="{TemplateBinding Background}">
                             <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
 
@@ -99,6 +99,7 @@
                 <ListBox.ContextMenu>
                     <ContextMenu>
                         <MenuItem Header="Sil" Background="#39385D" Foreground="White" Click="DeleteGameMenuItem_Click"/>
+                        <MenuItem Header="Dosya Konumunu Değiştir" Background="#39385D" Foreground="White" Click="DosyaKonumuDegistirMenuItem_Click"/>
                     </ContextMenu>
                 </ListBox.ContextMenu>
             </ListBox>
@@ -123,7 +124,7 @@
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border Width="100" Height="25"
-                                CornerRadius="12"
+                                CornerRadius="10"
                                 Background="{TemplateBinding Background}">
                             <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"></ContentPresenter>
 

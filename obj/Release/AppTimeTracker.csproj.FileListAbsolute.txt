@@ -37,3 +37,5 @@ C:\Users\Nephorid\source\repos\AppTimeTracker\AppTimeTracker\obj\Release\AppTime
 C:\Users\Nephorid\source\repos\AppTimeTracker\AppTimeTracker\obj\Release\AppTimeTracker.csproj.CopyComplete
 C:\Users\Nephorid\source\repos\AppTimeTracker\AppTimeTracker\obj\Release\AppTimeTracker.exe
 C:\Users\Nephorid\source\repos\AppTimeTracker\AppTimeTracker\obj\Release\AppTimeTracker.pdb
+C:\Users\Nephorid\source\repos\AppTimeTracker\AppTimeTracker\obj\Release\CustomInputDialog.baml
+C:\Users\Nephorid\source\repos\AppTimeTracker\AppTimeTracker\obj\Release\CustomInputDialog.g.cs

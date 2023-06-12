@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace AppTimeTracker
 {
@@ -51,6 +52,33 @@ namespace AppTimeTracker
         {
             WindowState = WindowState.Minimized;
         }
+
+        private void DragWindow(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                DragMove();
+            }
+        }
+
+        private void MoveWindow(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                if (WindowState == WindowState.Maximized)
+                {
+                    WindowState = WindowState.Normal;
+                    Point mousePos = PointToScreen(Mouse.GetPosition(this));
+                    Left = mousePos.X - ActualWidth / 2;
+                    Top = 0;
+                    DragMove();
+                }
+                else
+                {
+                    DragMove();
+                }
+            }
+        }
         private void LoadGameLibrary()
         {
             if (File.Exists(SaveFilePath))
@@ -64,6 +92,60 @@ namespace AppTimeTracker
                 {
                     gameListBox.Items.Add(game);
                 }
+            }
+        }
+
+        private void DosyaKonumuDegistirMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            if (gameListBox.SelectedIndex != -1)
+            {
+                OpenFileDialog openFileDialog = new OpenFileDialog();
+                openFileDialog.Filter = "Uygulama Dosyaları (*.exe)|*.exe";
+                openFileDialog.Title = "Oyun Dosyasını Seçin";
+
+                if (openFileDialog.ShowDialog() == true)
+                {
+                    string yeniDosyaKonumu = openFileDialog.FileName;
+                    Oyun seciliOyun = (Oyun)gameListBox.SelectedItem;
+                    seciliOyun.UpdateExecutablePath(yeniDosyaKonumu);
+                }
+            }
+        }
+
+
+        private void AddGameButton_Click(object sender, RoutedEventArgs e)
+        {
+            CustomInputDialog inputDialog = new CustomInputDialog();
+            inputDialog.Title = "Oyun Adı";
+            inputDialog.ShowDialog();
+
+            string oyunAdi = inputDialog.GameName;
+
+            if (!string.IsNullOrEmpty(oyunAdi))
+            {
+                OpenFileDialog openFileDialog = new OpenFileDialog();
+                openFileDialog.Filter = "Executable Files (*.exe)|*.exe";
+                openFileDialog.Title = "Oyunun yürütülebilir dosyasını seçin";
+
+                string oyunExecutablePath = string.Empty;
+                if (openFileDialog.ShowDialog() == true)
+                {
+                    oyunExecutablePath = openFileDialog.FileName;
+                }
+
+                if (!string.IsNullOrEmpty(oyunExecutablePath))
+                {
+                    Oyun oyun = new Oyun(oyunAdi, oyunExecutablePath);
+                    gameListBox.Items.Add(oyun);
+                }
+                else
+                {
+                    MessageBox.Show("Oyun yolu eksik.", "Hata", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Oyun adı eksik.", "Hata", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -81,32 +163,6 @@ namespace AppTimeTracker
                 }
             }
         }
-
-        private void AddGameButton_Click(object sender, RoutedEventArgs e)
-        {
-            string oyunAdi = Microsoft.VisualBasic.Interaction.InputBox("Oyunun adını girin:", "Oyun Adı");
-
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "Executable Files (*.exe)|*.exe";
-            openFileDialog.Title = "Oyunun yürütülebilir dosyasını seçin";
-
-            string oyunExecutablePath = string.Empty;
-            if (openFileDialog.ShowDialog() == true)
-            {
-                oyunExecutablePath = openFileDialog.FileName;
-            }
-
-            if (!string.IsNullOrEmpty(oyunAdi) && !string.IsNullOrEmpty(oyunExecutablePath))
-            {
-                Oyun oyun = new Oyun(oyunAdi, oyunExecutablePath);
-                gameListBox.Items.Add(oyun);
-            }
-            else
-            {
-                MessageBox.Show("Oyun adı veya yolu eksik.", "Hata", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-        }
-
 
         private async void gameListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

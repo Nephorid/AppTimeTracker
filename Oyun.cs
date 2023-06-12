@@ -18,6 +18,11 @@ namespace AppTimeTracker
         {
             return Ad;
         }
-    }
 
+        public void UpdateExecutablePath(string yeniDosyaKonumu)
+        {
+            ExecutablePath = yeniDosyaKonumu;
+        }
+    }
 }
+
